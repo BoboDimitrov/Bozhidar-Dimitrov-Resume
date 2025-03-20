@@ -1,7 +1,10 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.google.com/specimen/Atkinson+Hyperlegible+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
 /* Styles for the body */
 
@@ -33,14 +36,18 @@ body {
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
-}
-
-.biography-details li::before {
 	color: #EE7623;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
+}
+
+/* Corrected font-family declaration */
+.atkinson-hyperlegible {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* Styles for contact icons */
@@ -49,3 +56,4 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
